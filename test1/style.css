@@ -1,0 +1,53 @@
+body{
+background-color: #D5E1EF;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+
+@font-face{
+  font-family: '400Outfit-Regular';
+  src: url(font/400Outfit-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face{
+  font-family: '700Outfit-Regular';
+  src: url(font/700Outfit-Bold.ttf) format('truetype');
+  font-weight: 700;
+}
+
+.block{
+  background-color: #ffffff;
+  width: 229px;
+  height: 350px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.qr{
+  width: 210px;
+  height: 199px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+h1{
+  font-family: '700Outfit-Regular';
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px 0px;
+  color: #1f3251;
+}
+h2{
+  font-family: '400Outfit-Regular';
+  font-weight: 400;
+  font-size: 10px;
+  margin: 11px 19px;
+  color: #7B7B7B;
+}
